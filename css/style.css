@@ -608,6 +608,11 @@
     position: relative;
 }
 
+.packages .packages-carousel img {
+    height: 350px;
+    object-fit: cover;
+}
+
 .packages .packages-carousel .owl-nav .owl-prev {
     position: absolute;
     top: -50px;
@@ -1192,6 +1197,11 @@
     border: 3px solid var(--bs-white);
     border-style: dotted;
     transition: 0.5s;
+}
+
+.testimonial-img img {
+    height: 100%;
+    object-fit: cover;
 }
 /*** Testimonial End ***/
 
